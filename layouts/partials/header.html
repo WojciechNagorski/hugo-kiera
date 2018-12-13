@@ -31,6 +31,7 @@
         {{ end }} {{ if .Site.Author.email }}
         <li><a href="mailto:{{ .Site.Author.email }}"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a></li>
         {{ end }}
+        <li><a href="/index.xml"><i class="fas fa-rss fa-lg" aria-hidden="true"></i></a></li>
       </ul>
       {{ with .Site.Params.tagline }}
       <p><em>{{ . | markdownify }}</em></p>
