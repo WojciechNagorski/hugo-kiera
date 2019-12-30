@@ -14,6 +14,6 @@
     </ul>
 </section>
     {{ if .Site.DisqusShortname }}
-        {{ partial "disqus" . }}
+        {{ template "_internal/disqus.html" . }}
     {{ end }}
 {{ end }}
